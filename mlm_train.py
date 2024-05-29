@@ -46,9 +46,6 @@ training_args = TrainingArguments(
     ddp_find_unused_parameters=True,  # Find unused parameters for DDP
     gradient_accumulation_steps=32,  # Number of updates steps to accumulate before performing a backward/update pass
     lr_scheduler_type='cosine',  # Learning rate scheduler type
-    torch_compile=True,  # Enable Torch compile
-    torch_compile_backend='inductor',  # Set Torch compile backend
-    torch_compile_mode='default',  # Set Torch compile mode
     report_to='none'  # Disable reporting to any service
 )
 
