@@ -32,6 +32,10 @@ The dataset contains 717,389 surgical cases from a tertiary academic hospital, c
 ## Citation
 
 If you use this code or data, please cite the original paper:
-
-**Yoon, S.B., Lee, J., Lee, H.C., Jung, C.W., & Lee, H. (2024). Comparison of NLP Machine Learning Models with Human Physicians for ASA Physical Status Classification. npj Digital Medicine.**  
-[https://doi.org/10.1038/s41746-024-01259-6](https://doi.org/10.1038/s41746-024-01259-6)
+@article{Yoon2024ASAPSClassification,
+  title={Comparison of NLP Machine Learning Models with Human Physicians for ASA Physical Status Classification},
+  author={Soo Bin Yoon, Jipyeong Lee, Hyung-Chul Lee, Chul-Woo Jung, Hyeonhoon Lee},
+  journal={npj Digital Medicine},
+  year={2024},
+  doi={10.1038/s41746-024-01259-6}
+}
