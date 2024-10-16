@@ -29,6 +29,35 @@ The dataset contains 717,389 surgical cases from a tertiary academic hospital, c
 2. **BioClinicalBERT:** Biomedical-domain-specific BERT model, but limited to 512 tokens.
 3. **GPT-4:** Demonstrated high accuracy in medical exams, but less optimized for ASA-PS classification.
 
+## Training the ClinicalBigBird Model for MLM
+
+The provided code demonstrates how to fine-tune the **ClinicalBigBird** model for a **masked language modeling (MLM)** task using a custom trainer to handle imbalanced datasets.
+
+### Code Overview
+
+The training script includes:
+- Loading a pre-trained **ClinicalBigBird** model.
+- Defining **TrainingArguments** including parameters such as batch size, learning rate, and number of epochs.
+- Using a custom trainer class with an **ImbalancedDatasetSampler** to handle imbalanced datasets during training.
+- The model is trained on a dataset with a **masked language modeling (MLM)** task using a mask probability of 0.15.
+
+### Requirements
+
+- Python 3.10+
+- PyTorch
+- Transformers (Hugging Face)
+- Datasets (Hugging Face)
+- torchsampler (for imbalanced dataset sampling)
+- Other dependencies listed in `requirements.txt`
+
+### Installation
+
+Clone the repository and install the dependencies:
+```bash
+git clone https://github.com/jipyeong-lee/ASA-PS-NLP-vs-Human-Physicians.git
+cd ASA-PS-NLP-vs-Human-Physicians
+pip install -r requirements.txt
+
 ## Citation
 
 If you use this code or data, please cite the original paper:
@@ -41,3 +70,11 @@ If you use this code or data, please cite the original paper:
   year={2024},
   doi={10.1038/s41746-024-01259-6}
 }
+
+## License
+
+This article is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/), which permits use, sharing, adaptation, distribution, and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made.
+
+The images or other third-party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder.
+
+To view a copy of this licence, visit [http://creativecommons.org/licenses/by/4.0/](http://creativecommons.org/licenses/by/4.0/).
