@@ -57,6 +57,7 @@ Clone the repository and install the dependencies:
 git clone https://github.com/jipyeong-lee/ASA-PS-NLP-vs-Human-Physicians.git
 cd ASA-PS-NLP-vs-Human-Physicians
 pip install -r requirements.txt
+```
 
 ## Citation
 
@@ -70,6 +71,7 @@ If you use this code or data, please cite the original paper:
   year={2024},
   doi={10.1038/s41746-024-01259-6}
 }
+```
 
 ## License
 
