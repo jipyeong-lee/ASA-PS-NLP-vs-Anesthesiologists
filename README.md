@@ -1,6 +1,6 @@
 # ASA Physical Status Classification Using NLP Models
 
-This repository contains code and resources for the paper **"Comparison of NLP Machine Learning Models with Human Physicians for ASA Physical Status Classification"**, published in *npj Digital Medicine* (2024): [https://doi.org/10.1038/s41746-023-00893-w](https://doi.org/10.1038/s41746-024-01259-6). The study introduces natural language processing (NLP) models to classify ASA (American Society of Anesthesiologists) Physical Status (ASA-PS) using pre-anesthesia evaluation summaries and compares the performance with human physicians.
+This repository contains code and resources for the paper **"Comparison of NLP Machine Learning Models with Human Physicians for ASA Physical Status Classification"**, published in *npj Digital Medicine* (2024). The study introduces natural language processing (NLP) models to classify ASA (American Society of Anesthesiologists) Physical Status (ASA-PS) using pre-anesthesia evaluation summaries and compares the performance with human physicians.
 
 ## Overview
 
