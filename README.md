@@ -1,2 +1,2 @@
 # ASA-PS-NLP-vs-Anesthesiologists
-This repository contains the code for an NLP-based ASA-PS classification model, developed to classify the American Society of Anesthesiologist’s Physical Status (ASA-PS) using free-text pre-anesthesia evaluation summaries. The model aims to provide a consistent and objective classification, improving upon the variability seen in human raters.
+This repo contains code to reproduce the results of the paper titled "Comparison of NLP machine learning models with human physicians for ASA Physical Status classification", published in NPJ Digital Medicine (2024): [https://doi.org/10.1038/s41746-023-00893-w](https://doi.org/10.1038/s41746-024-01259-6)
